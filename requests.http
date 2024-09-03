@@ -1,0 +1,14 @@
+@apiUrl = http://localhost:3000
+
+GET {{apiUrl}}
+
+###
+GET {{apiUrl}}/calculadora
+
+###
+POST {{apiUrl}}/calculadora/start
+Content-Type: application/json
+
+{   
+    "pr": 4
+}
